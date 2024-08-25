@@ -3,7 +3,8 @@ const searchButton = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 const errorDisplay = document.querySelector(".error");
 
-const apiKey = "76da49e69bb8e4356fe46059b8daaab0";
+// Use the apiKey from config.js
+const apiKey = apiKeyCode; // This line will use the apiKey defined in config.js
 
 async function checkWeather(city){
     try{
